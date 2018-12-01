@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import urllib.request
 import firebase_admin
 from firebase_admin import credentials, db
