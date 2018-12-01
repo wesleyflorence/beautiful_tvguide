@@ -111,19 +111,3 @@ JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeErro
 1543627220155	Marionette	WARN	TLS certificate errors will be ignored for this session
 1543627225776	Marionette	INFO	Stopped listening on port 63141
 JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
-console.error: BroadcastService: 
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
-
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
-

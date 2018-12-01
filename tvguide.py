@@ -33,7 +33,7 @@ class TvGuideScraper():
         here = os.path.dirname(os.path.realpath(__file__))
         filename = os.path.join(here, './ServiceAccountKey.json')
         cred = credentials.Certificate(filename)
-        default_app = firebase_admin.initialize_app(cred, {
+        firebase_admin.initialize_app(cred, {
             'databaseURL' : 'https://chatapp-a4018.firebaseio.com/'
         })
         ref = db.reference('/shows')
