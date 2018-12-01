@@ -1,0 +1,129 @@
+1543443951855	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.UvktdSFVifE0"
+*** You are running in headless mode.
+1543443954637	Marionette	INFO	Listening on port 53220
+1543443954755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543443959879	Marionette	INFO	Stopped listening on port 53220
+1543527196583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.37nKWnhNA9qE"
+*** You are running in headless mode.
+1543527199361	Marionette	INFO	Listening on port 56132
+1543527199459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543527209380	Marionette	INFO	Stopped listening on port 56132
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1543619955676	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.3BaOYsxH0qvI"
+*** You are running in headless mode.
+1543619958528	Marionette	INFO	Listening on port 59428
+1543619958633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543619967932	Marionette	INFO	Stopped listening on port 59428
+JavaScript error: https://cdn.taboola.com/libtrc/cbsinteractive-tvguide/loader.js, line 3: ReferenceError: TRCImpl is not defined
+1543620107720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.kygkLtalfAQl"
+*** You are running in headless mode.
+1543620109981	Marionette	INFO	Listening on port 59654
+1543620110075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543620114476	Marionette	INFO	Stopped listening on port 59654
+1543620210026	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.XFAS4dGvcpcj"
+*** You are running in headless mode.
+1543620212748	Marionette	INFO	Listening on port 59816
+1543620212772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543620222164	Marionette	INFO	Stopped listening on port 59816
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 15692, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1543624824812	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.jpf4MknNCTXO"
+*** You are running in headless mode.
+1543624827932	Marionette	INFO	Listening on port 61395
+1543624827970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543624836619	Marionette	INFO	Stopped listening on port 61395
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4C0010,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1543624883293	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.L4y8zSeSisF3"
+*** You are running in headless mode.
+1543624885543	Marionette	INFO	Listening on port 61525
+1543624885682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543624893151	Marionette	INFO	Stopped listening on port 61525
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1543625099456	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.35U4b8jpc4DA"
+*** You are running in headless mode.
+1543625101939	Marionette	INFO	Listening on port 61772
+1543625102005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543625108939	Marionette	INFO	Stopped listening on port 61772
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1543626319055	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.WrDU1mIH8Vkh"
+*** You are running in headless mode.
+1543626321528	Marionette	INFO	Listening on port 62306
+1543626321597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543626333311	Marionette	INFO	Stopped listening on port 62306
+1543626372166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.K5nCo4AgGywJ"
+*** You are running in headless mode.
+1543626374819	Marionette	INFO	Listening on port 62464
+1543626374903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543626383276	Marionette	INFO	Stopped listening on port 62464
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1543626427725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.SGQClScsA86E"
+*** You are running in headless mode.
+1543626430390	Marionette	INFO	Listening on port 62569
+1543626430521	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543626439517	Marionette	INFO	Stopped listening on port 62569
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1543626578550	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.rPTRvgRUWPsB"
+*** You are running in headless mode.
+1543626580729	Marionette	INFO	Listening on port 62731
+1543626580882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543626587162	Marionette	INFO	Stopped listening on port 62731
+1543627144527	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.WLodsmyNqPnC"
+*** You are running in headless mode.
+1543627147469	Marionette	INFO	Listening on port 63011
+1543627147481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543627205568	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.htlzt3tdr2HE"
+*** You are running in headless mode.
+1543627208326	Marionette	INFO	Listening on port 63083
+1543627208476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543627217821	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/gq/ghhmtpxd5wjgs3m6fkglwyzr0000gn/T/rust_mozprofile.RVkHvHDmg4dT"
+*** You are running in headless mode.
+1543627220128	Marionette	INFO	Listening on port 63141
+1543627220155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543627225776	Marionette	INFO	Stopped listening on port 63141
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+

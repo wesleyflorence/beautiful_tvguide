@@ -1,4 +1,6 @@
 import urllib.request
+import firebase_admin
+from firebase_admin import credentials, db
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 import bs4 as bs
+import os
 
 class TvGuideScraper():
     tv_guide_page = 'https://www.tvguide.com/listings/'
@@ -27,13 +30,29 @@ class TvGuideScraper():
 
     #soup
     def scrape(self):
+        here = os.path.dirname(os.path.realpath(__file__))
+        filename = os.path.join(here, './ServiceAccountKey.json')
+        cred = credentials.Certificate(filename)
+        default_app = firebase_admin.initialize_app(cred, {
+            'databaseURL' : 'https://chatapp-a4018.firebaseio.com/'
+        })
+        ref = db.reference('/shows')
+
         html = self.get_dynamic_html()
-        soup = bs.BeautifulSoup(html, 'lxml')
+        
+        soup = bs.BeautifulSoup(html, "lxml")
         content_list = soup.find('ul', {'class':'listings-grid'})
 
+        data = {}
         for item in content_list.find_all('li'):
             if item['class'][0] == 'listings-channel-row':
-                print(item['data-channel-name'] + ": " + item.contents[1]['data-program-title'])
+                channel = str(item['data-channel-name']).upper()
+                show = item.contents[1]['data-program-title']
+                data[channel] = show
+                print(channel + ": " + show + "Added to firebase")
+        ref.set(data)
+
+
 
 tv = TvGuideScraper()
 tv.scrape()
