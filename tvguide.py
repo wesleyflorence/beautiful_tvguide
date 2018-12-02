@@ -57,8 +57,8 @@ class TvGuideScraper():
                 show_dict["show"] = show
                 data[i] = show_dict
                 i += 1
-                print("Firebase database updated with current shows!\n")
         ref.set(data)
+        print("Firebase database updated with current shows!\n")
 
 
 
