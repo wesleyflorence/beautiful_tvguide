@@ -46,12 +46,21 @@ class TvGuideScraper():
         content_list = soup.find('ul', {'class':'listings-grid'})
 
         data = {}
+        # show_dict = {}
+        i = 0
         for item in content_list.find_all('li'):
             if item['class'][0] == 'listings-channel-row':
                 channel = str(item['data-channel-name']).upper()
                 show = item.contents[1]['data-program-title']
-                data[channel] = show
-                print(channel + ": " + show + "Added to firebase")
+                # channel_dict = {}
+                show_dict = {}
+
+                show_dict["channel"] = channel
+                show_dict["show"] = show
+                data[i] = show_dict
+                i += 1
+                # show_dict.clear()
+                # print(channel + ": " + show + "Added to firebase")
         ref.set(data)
 
 
