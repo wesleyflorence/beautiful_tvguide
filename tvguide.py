@@ -52,15 +52,12 @@ class TvGuideScraper():
             if item['class'][0] == 'listings-channel-row':
                 channel = str(item['data-channel-name']).upper()
                 show = item.contents[1]['data-program-title']
-                # channel_dict = {}
                 show_dict = {}
-
                 show_dict["channel"] = channel
                 show_dict["show"] = show
                 data[i] = show_dict
                 i += 1
-                # show_dict.clear()
-                # print(channel + ": " + show + "Added to firebase")
+                print("Firebase database updated with current shows!\n")
         ref.set(data)
 
 
