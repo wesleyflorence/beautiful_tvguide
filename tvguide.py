@@ -36,7 +36,7 @@ class TvGuideScraper():
         filename = os.path.join(here, './ServiceAccountKey.json')
         cred = credentials.Certificate(filename)
         firebase_admin.initialize_app(cred, {
-            'databaseURL' : 'https://chatapp-a4018.firebaseio.com/'
+            'databaseURL' : 'https://wibblewobble-82639.firebaseio.com/'
         })
         ref = db.reference('/shows')
 
