@@ -5,6 +5,10 @@ using beautiful soup and selenium to get tv schedule.
 Script is run on 15 minute intervals on a remote server using the crontab.
 Tv schedual updates the Firebase Realtime database which provides data for the WibbleWobble app.
 
+### Requires ServiceAccountsKey.json
+To run this you need a service accounts Key in same directory.
+You can generate this key for your firebase project [here.](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk)
+
 ### Crontab
 ```
 PATH=/home/wes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
